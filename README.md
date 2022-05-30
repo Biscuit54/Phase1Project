@@ -9,6 +9,10 @@
 2.
 
 ---
+
+For myself
+---
+
  **GOALS**
 - [X] Create intial files.
 - [X] Create Repositry. 
