@@ -146,3 +146,8 @@ border-color: #845EC2;
 font-family: 'Segoe UI';
   position: absolute; top: 42px; left: 1505px;
 }
+#btn2{
+  color: white;
+  font-family: 'Segoe UI';
+  position: absolute; top:505px; left: 915px;
+}
