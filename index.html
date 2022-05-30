@@ -2,11 +2,10 @@
 <link rel="stylesheet" href="styles.css">
 <html lang="en">
 <head>
+    <p id = 'Message'>You should...</p>
   <title>Never Be Bored</title>
-  <p class = 'Message'>You should...</p>
 </head>
 <body>
-    
   <!--Front Display Message ANIMATED....-->  
   <h1> 
 <span>Never Be</span>
@@ -15,9 +14,17 @@
 <div class = "N"></div>
 <div class = "F"></div>
 </div>
-</h1>
-<button class="button">End Boredom</button>
-<script>src="index.js"</script>
+  </h1>
+ <!-- <script>
+      function Generate(){
+        fetch('http://www.boredapi.com/api/activity/')
+          .then(response => response.json())
+         .then(data => getElementById("Message").textContent = data.activity);    
+    }
+  </script>
+-->
+<button onclick="activityTime" id="button">End Boredom</button>
 
+<script src="index.js"></script>
 </body>
-</html>
+</html> 

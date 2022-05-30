@@ -1,14 +1,12 @@
-//SECTION 1    For Button
-const button = document.getElementById('button')
-button.addEventListener('click', Generate)
+const Button = document.getElementById('button')
+button.addEventListener('click', activityTime)
 
-function Generate(){
-    fetch("http://www.boredapi.com/api/activity/")
-    .then(response => response.json())
-    .then(data => 
-        document.getElementById(
-            'msg'
-        ).innerHTML = <span class="msg">&nbsp;${data.activity}&nbsp;</span>)
-        
-        
-        }
+function activityTime() {
+    fetch('http://www.boredapi.com/api/activity/')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById(
+                'Message'
+            ).innerHTML = `<span class="activityGlam">&nbsp;${data.activity}&nbsp;</span>`
+        })
+}
