@@ -1,3 +1,4 @@
+/**Animation for H1**/
 *{
     box-sizing: border-box;
   }
@@ -8,10 +9,11 @@
     justify-content: center;
     height: 100vh;
     width: 100vw;
+    background-color: black;
   }
   h1 {
-    color: #333;
-    font-family: tahoma;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI';
     font-size: 3rem;
     font-weight: 100;
     line-height: 1.5;
@@ -23,25 +25,25 @@
   }
   
   h1 span {
-    font-size: 40px;
+    font-size: 45px;
     margin-left: 40px;
   }
   
   .inspiration {
-    background-color: yellow;
-    color: #333;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     display: block;
-    font-weight: 900;
+    font-weight: 1000;
     overflow: hidden;
     position: absolute;
     padding-left: 0.5rem;
     top: 0.2rem;
     left: 270px;
-    animation: openclose 5s ease-in-out infinite;
+    animation: openclose 10s ease-in-out infinite;
   }
   
   .W, .N, .F {
-    font-family: tahoma;
+    font-family:  'Segoe UI';
   }
   
   @keyframes openclose {
@@ -108,3 +110,29 @@
       text-indent: 0;
     }
   }
+  /**BUTTON DESIGN**/
+.button {
+	--x: 50%;
+	--y: 50%;
+	
+	position: relative;
+	appearance: none;
+	padding: 1em 2em;
+	color: white;
+	cursor: pointer;
+	outline: none;
+	border-radius: 100px;
+    font-size: large;
+	
+	
+	border: 2px solid transparent;
+	background: linear-gradient(#000, #000) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), #00C9A7, #845EC2) border-box;
+}
+.Message{
+    color: rgb(255, 255, 255);
+    font-family: "Segoe UI";
+    position:relative;
+    top:-290px;
+    right:-400px;
+    font-size: 34px;
+}
