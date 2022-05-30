@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="styles.css">
 <html lang="en">
+  <footer>
+    <script src="https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=pt_dda85dfd3748bf5e41c885c80484cc
+    "></script>
+  </footer>
 <head>
     <p id = 'Message'>You should...</p>
   <title>Never Be Bored</title>
 </head>
 <body>
+  <p id="clapMsg">Please Clap If You Found Something Fun To Do!</p>
+  <div
+  data-lyket-type="clap"
+  data-lyket-id="my-third-post"
+  data-lyket-namespace="blog"
+  data-lyket-template="heart"
+  style = "position:absolute; left:1850px; top:50px;right:0px;"
+  data-lyket-color-text="white";
+></div>
+
   <!--Front Display Message ANIMATED....-->  
   <h1> 
 <span>Never Be</span>
@@ -26,5 +40,6 @@
 <button onclick="activityTime" id="button">End Boredom</button>
 
 <script src="index.js"></script>
+
 </body>
 </html> 

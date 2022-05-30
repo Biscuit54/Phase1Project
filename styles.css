@@ -139,3 +139,10 @@
     right:0px;
     font-size: 50px;
 }
+#clapMsg{
+  color: rgb(214, 202, 202);
+  font-weight: 10px;
+border-color: #845EC2;
+font-family: 'Segoe UI';
+  position: absolute; top: 42px; left: 1505px;
+}
