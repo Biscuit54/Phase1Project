@@ -11,8 +11,9 @@
   <title>Never Be Bored</title>
 </head>
 <body>
+  <button id = Filter>List</button>
  <div id = 'toggle'>
-   <i id="indicator"></i>
+   <i class="indicator"></i>
  </div>
  <script>
    const body = document.querySelector('body');
@@ -21,6 +22,13 @@
     toggle.classList.toggle('active')
     body.classList.toggle('active');
   }
+</script>
+<script>
+const activityTypes = ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"]
+const datatype = activityTypes.filter(rework);
+function rework(){
+  document.getElementById('Filter')
+}
 </script>
   <!--D*L Mode-->
  <!-- <button id = 'btn2'>Dark Mode</button> -->
