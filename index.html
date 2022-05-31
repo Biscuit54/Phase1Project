@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="styles.css">
+
 <html lang="en">
   <footer>
     <script src="https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=pt_dda85dfd3748bf5e41c885c80484cc
@@ -10,9 +11,19 @@
   <title>Never Be Bored</title>
 </head>
 <body>
+  <script>
+    const toggle = document.getElementById('toggle');
+    toggle.onclick = function(){
+      toggle.classList.toggle('active')
+    }
+  </script>
+ <div id = 'toggle'>
+   <i class="indicator"></i>
+ </div>
+ </div>
   <!--D*L Mode-->
-  <button onclick="darkmode" id = btn2>🌗</button>
- <!-- Clap Button-->
+ <!-- <button id = 'btn2'>Dark Mode</button> -->
+
   <p id="clapMsg">Please Clap If You Found Something Fun To Do!</p>
   <div
   data-lyket-type="clap"
@@ -20,10 +31,9 @@
   data-lyket-namespace="blog"
   data-lyket-template="heart"
   style = "position:absolute; left:1850px; top:23px;right:0px;"
-  data-lyket-color-text="white";
+  data-lyket-color-text="white;"
 ></div>
-<!--END-->
-  <!--Front Display Message ANIMATED....-->  
+
   <h1> 
 <span>Never Be</span>
 <div class="inspiration">
@@ -37,13 +47,13 @@
         fetch('http://www.boredapi.com/api/activity/')
           .then(response => response.json())
          .then(data => getElementById("Message").textContent = data.activity);    
-    }
+      }
   </script>
 -->
-<button onclick="activityTime" id="button">End Boredom</button>
+<button id="button">End Boredom</button>
 
 <script src="index.js"></script>
-<!--END-->
+
 
 </body>
-</html> 
+</html>
