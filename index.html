@@ -11,16 +11,17 @@
   <title>Never Be Bored</title>
 </head>
 <body>
-  <script>
-    const toggle = document.getElementById('toggle');
-    toggle.onclick = function(){
-      toggle.classList.toggle('active')
-    }
-  </script>
  <div id = 'toggle'>
    <i class="indicator"></i>
  </div>
- </div>
+ <script>
+   const body = document.querySelector('body');
+  const toggle = document.getElementById('toggle');
+  toggle.onclick = function(){
+    toggle.classList.toggle('active')
+    body.classList.toggle('active');
+  }
+</script>
   <!--D*L Mode-->
  <!-- <button id = 'btn2'>Dark Mode</button> -->
 
