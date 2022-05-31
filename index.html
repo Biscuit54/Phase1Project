@@ -8,10 +8,20 @@
   </footer>
 <head>
     <p id = 'Message'>You should...</p>
+    <p id= 'filtered'>Filtered Activities</p>
   <title>Never Be Bored</title>
 </head>
 <body>
-  <!--<button id = 'Filter'>Activity Type</button>-->
+
+  <button id = 'Filter'>Number Of People</button>
+  <!--<script>
+document.getElementById('Filter').addEventListener('click',myFunc())
+function myFunc(){
+  fetch('http://www.boredapi.com/api/activity/')
+          .then(response => response.json())
+         .then(data => getElementById("Filter").textContent = data.activity);    
+      }
+  </script> -->
  <div id = 'toggle'>
    <i class="indicator"></i>
  </div>

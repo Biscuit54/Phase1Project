@@ -198,11 +198,18 @@ font-family: 'Segoe UI';
   font-family: 'Segoe UI';
   position: absolute; top: 850px; left: 15px;
 }
-/*#Filter
+#Filter
 {
   font-family: 'Segoe UI';
   background-color: white;
   position: absolute;
   top: 500px; 
-  left: 873px;
-}*/
+  left: 850px;
+}
+#filtered
+{
+  color: white;
+  font-family: 'Segoe UI';
+  position: absolute; top: 650px; left: 847px;
+  font-size: 30px;
+}
