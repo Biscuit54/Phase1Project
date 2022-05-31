@@ -1,6 +1,6 @@
-const upThumb = '♥'
-const downThumb = '♡'
-const lVote = '👎'
+// const upThumb = '♥'
+// const downThumb = '♡'
+// const lVote = '👎'
 const Button = document.getElementById('button')
 button.addEventListener('click', activityTime)
 
@@ -13,24 +13,12 @@ function activityTime() {
             ).innerHTML = `<span class="activityGlam">&nbsp;${data.activity}&nbsp;</span>`
         })
 }
-let btn1 = document.querySelector('#green');
-let btn2 = document.querySelector('#red');
+//next section
 
-btn1.addEventListener('click', function() {
-  
-    if (btn2.classList.contains('red')) {
-      btn2.classList.remove('red');
-    } 
-  this.classList.toggle('green');
-  
-});
+//acivities for bored API  = ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"]
+const btn2 = document.getElementById('btn2')
+btn2.addEventListener('click', lighten)
 
-btn2.addEventListener('click', function() {
-  
-    if (btn1.classList.contains('green')) {
-      btn1.classList.remove('green');
-    } 
-  this.classList.toggle('red');
-  
-});
-
+function lighten(){
+    
+}
