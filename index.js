@@ -13,4 +13,3 @@ function activityTime() {
             ).innerHTML = `<span class="activityGlam">&nbsp;${data.activity}&nbsp;</span>`
         })
 }
-//next section
