@@ -204,12 +204,12 @@ font-family: 'Segoe UI';
   background-color: white;
   position: absolute;
   top: 500px; 
-  left: 850px;
+  left: 871px;
 }
 #filtered
 {
   color: white;
   font-family: 'Segoe UI';
-  position: absolute; top: 650px; left: 847px;
+  position: absolute; top: 650px; left: 829px;
   font-size: 30px;
 }

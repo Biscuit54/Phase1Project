@@ -13,3 +13,4 @@ function activityTime() {
             ).innerHTML = `<span class="activityGlam">&nbsp;${data.activity}&nbsp;</span>`
         })
 }
+const activityTypes = ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"]
