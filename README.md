@@ -13,9 +13,9 @@
 For myself
 ---
 
- **GOALS**
+ **GOALS** 100%
 - [X] Create intial files.
 - [X] Create Repositry. 
 - [X] Find API.
-- [ ] Design Page Layout. 
-- [ ] Implement all desired features.
+- [X] Design Page Layout. 
+- [X] Implement all desired features.
