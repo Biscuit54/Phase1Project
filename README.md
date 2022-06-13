@@ -4,8 +4,6 @@
 
 Information/Q&A
 -----------------
-This project can be reached at file://wsl.localhost/Ubuntu/home/biscuit/Phase1Project/index.html
-
 This is a project for phase 1 which I am calling the Never Be Bored application.
 
 It was designed to be simple to use and offer a vast amount of fun ideas for a user to do in case they're bored.
