@@ -41,8 +41,7 @@ Clap Button Design Used - https://lyket.dev/
 
 Text Animation - https://alvarotrigo.com/blog/css-text-animations/
 
-Button Design - https://freefrontend.com/css-border-examples/
---------------------------------------------------------------------
+Button Design - https://freefrontend.com/css-border-examples/\
 
 For myself
 ---
