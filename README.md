@@ -1,17 +1,17 @@
-# Phase1Project - "NEVER BE BORED"
+# Phase1Project - "NEVER BE BORED" (Development Stopped)
 **Made By: Jacob Delgadillo** :sleeping:
 -----------------------------------------------------
 
 Information/Q&A
 -----------------
+This project can be reached at file://wsl.localhost/Ubuntu/home/biscuit/Phase1Project/index.html
 
 This is a project for phase 1 which I am calling the Never Be Bored application.
 
 It was designed to be simple to use and offer a vast amount of fun ideas for a user to do in case they're bored.
 
-
-
-
+EXAMPLE OF HOW TO NAVIGATE WEBPAGE
+------------------------------------
 
 
 
@@ -53,4 +53,4 @@ For myself
 - [X] Design Page Layout. 
 - [X] Implement all desired features.
 
-If you enjoyed my project you can leave a review at - jacobdelgadillo751@gmail.com
+If you enjoyed my project or have other questions you can email a review to - jacobdelgadillo751@gmail.com
