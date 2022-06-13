@@ -11,12 +11,7 @@ It was designed to be simple to use and offer a vast amount of fun ideas for a u
 EXAMPLE OF HOW TO NAVIGATE WEBPAGE
 ------------------------------------
 
-
-
-
-
-
-
+![](https://github.com/Biscuit54/Phase1Project/blob/main/ezgif-1-c9b31dae23.gif)
 
 
 
